@@ -4,3 +4,44 @@
 Verde: #49a09d
 Lilás: #5f2c82
 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-color: #5f2c82;
+}
+
+main{
+    width: 100vw;
+}
+
+section#login{
+    width: 70vw;
+    height: 80vh;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+div#form{
+    background-color: white;
+    height: 252px;
+    margin-top: 0px;
+}
